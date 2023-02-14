@@ -1,0 +1,7 @@
+caraio = input('Digite algo')
+print('o tipo de algo é',type(caraio))
+print('É um númerico?', caraio.isnumeric())
+print('É alfanumérico',caraio.isalnum())
+print('É em letra maiusculá?',caraio.isupper())
+print('Só tem espaços?',caraio.isspace())
+print('Está em letra minuscula?',caraio.islower())
